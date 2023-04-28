@@ -1,7 +1,7 @@
 package main
 
 import (
-	"TestGo/com/sunbin/study/mashibing/testArray/array2"
+	"TestGo/com/sunbin/study/mashibing/array/array2"
 	"fmt"
 )
 
