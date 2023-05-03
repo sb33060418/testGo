@@ -1,7 +1,7 @@
 package main
 
 import (
-	"TestGo/com/sunbin/study/mashibing/testModule/util"
+	"TestGo/com/sunbin/study/mashibing/module/util"
 	"fmt"
 )
 
