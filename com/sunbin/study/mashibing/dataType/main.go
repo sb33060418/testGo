@@ -5,14 +5,6 @@ import (
 	"unsafe"
 )
 
-func main() {
-	fmt.Println("main()")
-	testBool()
-	testByte()
-	testInt()
-	testFloat()
-}
-
 func testBool() {
 	fmt.Println("testBool()")
 	var b bool = true
@@ -55,4 +47,12 @@ func testFloat() {
 	fmt.Printf("%v %T %v\n", f64, f64, unsafe.Sizeof(f64))
 	fDefault := 100.100
 	fmt.Printf("%v %T %v\n", fDefault, fDefault, unsafe.Sizeof(fDefault))
+}
+
+func main() {
+	fmt.Println("main()")
+	testBool()
+	testByte()
+	testInt()
+	testFloat()
 }
